@@ -1,0 +1,7 @@
+package wt.model;
+
+public class InfixToPrefixModel {
+	public InfixToPrefixModel(String s) {
+		
+	}
+}

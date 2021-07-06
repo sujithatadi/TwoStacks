@@ -1,0 +1,13 @@
+package wt.model;
+
+public class BalancedParanthesisModel {
+	public String out1="";
+	public String out2="";
+	public String BalancedParanthesis(String expression) {
+		return expression;
+	}
+	public BalancedParanthesisModel(String s) {
+		this.out1=s;
+		this.out2=(this.BalancedParanthesis(this.out1)).toString();
+	}
+}

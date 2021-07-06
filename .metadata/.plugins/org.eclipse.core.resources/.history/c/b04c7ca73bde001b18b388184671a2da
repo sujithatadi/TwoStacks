@@ -1,0 +1,9 @@
+package wt.model;
+
+public class InfixToPostfixModel {
+	public String out1="";
+	public String out2="";
+	public InfixToPostfixModel(String s) {
+		
+	}
+}

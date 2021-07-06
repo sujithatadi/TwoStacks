@@ -1,0 +1,10 @@
+package wt.model;
+
+public class InfixToPrefixModel {
+	public String out1="";
+	public String out2="";
+	public InfixToPrefixModel(String s) {
+		this.out1=s;
+		this.out2=.out2=(this.infixToPreFix(this.out1)).toString();
+	}
+}

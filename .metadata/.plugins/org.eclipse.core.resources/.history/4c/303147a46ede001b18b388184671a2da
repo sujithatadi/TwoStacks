@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+</head>
+<style>
+	.header{
+		height:60px;
+		background-color:darkcyan;
+		padding:20px;
+		font-size:20px;
+		color:white;
+		
+	}	
+</style>
+<body>
+<div class="header">
+<p align="center">WELCOME TO TWOSTACKS</p>
+</div>
+<br><br>
+<div class="container">
+ <div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Infix To Prefix</h5>
+        <p class="card-text">Prefix and Postfix expressions are easier for a computer to understand and evaluate. </p>
+       <a href="infixToPrefix.html" class="btn btn-primary">infixToPrefix</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Infix To Postfix</h5>
+        <p class="card-text">Prefix and Postfix expressions are easier for a computer to understand and evaluate. </p>
+        <a href="InfixToPostfix.html" class="btn btn-primary">InfixToPostfix</a>
+      </div>
+    </div>
+  </div>
+  <br>
+ 	<div class="col-sm-6"><br><br></div><div class="col-sm-6"><br><br></div>
+    <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Check Balance Paranthesis</h5>
+        <p class="card-text">Balancing symbols application ensures that the pair of parentheses are properly nested while reversing stack reverses a stack.</p>
+        <a href="BalancedParanthesis.html" class="btn btn-primary">CheckBalance</a>
+      </div>
+    </div>
+  </div>
+        <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Expression Evaluation</h5>
+        <p class="card-text">Infix Expressions are harder for Computers to evaluate because of the additional work needed to decide precedence.</p>
+        <a href="ExpressionEval.html" class="btn btn-primary">ExpressionEval</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+package wt.model;
+
+public class BalancedParanthesisModel {
+	public String out1="";
+	public String out2="";
+	public BalancedParanthesisModel(String s) {
+		
+	}
+}

@@ -1,0 +1,10 @@
+package wt.model;
+
+public class ExpressionEvalModel {
+	public String out1="";
+	public String out2="";
+	public ExpressionEvalModel(String s) {
+		this.out1=s;
+		this.out2=expressioneval(s);
+	}
+}

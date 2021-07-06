@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<style>
+	.form-class {
+		position:relative;
+		left:150px;
+		width:500px;
+		padding:30px;
+		text-align:"center";
+		border:solid;
+		
+		
+	}
+</style>
+<body>
+<h1> Infix To Prefix Conversion </h1>
+<div class="form-class">
+<form action="inftopre" method="post" >
+	<label>Enter the Infix Expression:</label>
+	<input type="text" name="input" placeholder="Ef.a+b+c..">
+	<br><br>
+	<input type="submit" value="submit" >
+</form>
+</div>
+</body>
+</html>
